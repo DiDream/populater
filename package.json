@@ -1,0 +1,19 @@
+{
+  "name": "populater",
+  "version": "0.0.0",
+  "description": "",
+  "main": "populater.js",
+  "bin": {
+    "populater": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^3.10.0",
+    "mongoose": "^4.13.4",
+    "yargs": "^10.0.3"
+  }
+}
