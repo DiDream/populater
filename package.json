@@ -1,7 +1,7 @@
 {
   "name": "populater",
   "version": "0.0.0",
-  "description": "",
+  "description": "Populate your MongoDB database.",
   "main": "populater.js",
   "bin": {
     "populater": "./bin/index.js"
@@ -9,11 +9,25 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "DiDream",
   "license": "MIT",
   "dependencies": {
     "js-yaml": "^3.10.0",
-    "mongoose": "^4.13.4",
     "yargs": "^10.0.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiDream/populater.git"
+  },
+  "keywords": [
+    "mongoose",
+    "populate",
+    "mongodb",
+    "express"
+  ],
+  "bugs": {
+    "url": "https://github.com/DiDream/populater/issues"
+  },
+  "homepage": "https://github.com/DiDream/populater#readme"
 }
